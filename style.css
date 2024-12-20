@@ -1,0 +1,39 @@
+  
+.a{
+    border: 70px solid transparent;
+    border-image-source: url(asset/images/border5.webp);
+    border-image-slice: 100;
+    border-image-repeat: stretch;
+    padding: 10px; 
+    text-align: center;
+    margin: 20px; 
+    
+}
+.b{
+    border: 80px solid transparent;
+    border-image-source: url(asset/images/border_6-removebg-preview.png);
+    border-image-slice: 80;
+    border-image-repeat: stretch;
+    margin: 20px;
+}
+.c{
+    border: 70px solid transparent;
+    border-image-source: url(asset/images/border4-removebg-preview.png) ;
+    border-image-slice: 100;
+    border-image-repeat: stretch;
+    padding: 10px; 
+    text-align: center;
+    margin: 20px; 
+
+}
+li{
+    display: inline;
+    margin-left: 200px;
+    text-transform: capitalize;
+    color: maroon;
+}
+
+li:hover{
+    color: seagreen;
+    font-size: 30px;
+}
